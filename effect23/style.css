@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: #0fbcf9;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+/*    animation-timing-function: linear;*/
+    animation-direction: alternate-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+@keyframes moving{
+ 
+    from {transform: translateX(0);
+    filter: blur(0);
+    opacity: 1;}
+    
+    to {transform: translateX(500px);
+    filter: blur(2px);
+    opacity: 0;}
+}

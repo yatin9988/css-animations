@@ -1,0 +1,10 @@
+css transition
+
+transition is a css property which allows us to change the other css properties of an element over a given period of time.
+
+we need atleadt 2 of the css transition properties to define a transition - transition-property (which css property do you want to change) and transition- duration(time period)
+
+we also have 2 additional properties the transition - timing function and the transition delay which add a bit more effect
+
+transition property does not apply on all css properties
+

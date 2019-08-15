@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #EA2027;
+}
+
+div{
+    transform: translateY(-50%);
+    font-size: 50px;
+    font-family: serif;
+    color: #fff;
+}
+
+span::before{
+    content: '';
+    text-transform: uppercase;
+    color: #1B1464;
+    animation: change 3s linear infinite alternate;
+}
+
+@keyframes change{
+    
+    0% {content: 'transition';}
+    
+    50% {content: 'transform';}
+    
+    100% {content: 'animation';}
+    
+}

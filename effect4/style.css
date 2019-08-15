@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mover{
+    width: 200px;
+    height: 50px;
+    background-color: #78e08f;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 22px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.col:hover{
+    color:#b8e994;
+}
+
+.bg:hover{
+    background-color: #b8e994;
+}
+
+.pad:hover{
+    padding: 50px;
+}
+
+.ma:hover{
+    margin: 100px auto;
+}
+
+.br:hover{
+    border-radius: 50%;
+}
+
+.ls:hover{
+    letter-spacing: 5px;
+}

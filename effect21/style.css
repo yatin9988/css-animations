@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation-name: move;
+    animation-duration: 3s;
+}
+
+@keyframes move{
+    0% { transform: translateX(0);}
+    
+    25% { transform: translateX(500px);}
+    
+    75%{ transform: translate(500px,500px);}
+    
+    100% {transform: translate(0,0);}
+}

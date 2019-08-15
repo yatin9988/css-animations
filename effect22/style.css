@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    width: 100vw;
+    height: 5px;
+    background-color: #0fbcf9;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.b{
+    width: 5px;
+    height: 100vh;
+    background-color: #ffd32a;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes animation{
+    
+    from {transform: translateY(0);}
+    
+    to{transform: translateY(100vh);}
+    
+}
+
+@keyframes moving{
+    from {transform: translateX(0);}
+    
+    to {transform: translateX(100vw);}
+}

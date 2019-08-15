@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.75s linear;
+}
+
+.caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.75s linear;
+    background-color: rgba(0,0,0,1);
+    transform: translateY(100%);
+}
+
+h1{
+    text-transform:uppercase;
+    margin: 0;
+}
+
+p{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.container:hover .caption{
+/*    background-color: rgba(0,0,0,0.5);*/
+    transform: translateY(0%);
+} 
+
+.container:hover img{
+    transform: translateY(-30%);
+}
+

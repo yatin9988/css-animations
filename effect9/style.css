@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 45px;
+    color: #E1332D;
+    border: 3px solid #E1332D;
+    padding: 40px 80px;
+    position: relative;
+    transition: all 0.5s linear;
+    font-weight: 300;
+    letter-spacing: -2px;
+}
+
+a:hover{
+    letter-spacing: 5px;
+    border: 5px solid #E1332D;
+    font-size: 50px;
+}
